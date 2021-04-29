@@ -1,0 +1,17 @@
+<odoo>
+	<data>
+		<record model="ir.ui.view" id="alpha_list_view">
+			<field name="name">alpha.tree</field>
+			<field name="model">test-module.alpha</field>
+			<field name="arch" type="xml">
+				<tree string="Alpha list">
+					<field name="name"/>
+					<field name="date"/>
+					<field name="address"/>
+					<field name="key"/>
+					<field name="betas"/>
+				</tree>
+			</field>
+		</record>
+	</data>
+</odoo>

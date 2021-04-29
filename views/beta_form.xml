@@ -1,0 +1,17 @@
+<odoo>
+	<data>
+		<record model="ir.ui.view" id="beta_form_view">
+			<field name="name">beta.name</field>
+			<field name="model">test-module.beta</field>
+			<field name="arch" type="xml">
+				<form string="Beta form">
+					<group>
+						<field name="name"/>
+						<field name="phone"/>
+						<field name="price"/>
+					</group>
+				</form>
+			</field>
+		</record>
+	</data>
+</odoo>

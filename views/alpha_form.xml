@@ -1,0 +1,19 @@
+<odoo>
+	<data>
+		<record model="ir.ui.view" id="alpha_form_view">
+			<field name="name">alpha.name</field>
+			<field name="model">test-module.alpha</field>
+			<field name="arch" type="xml">
+				<form string="Alpha form">
+					<group>
+						<field name="name"/>
+						<field name="date"/>
+						<field name="address"/>
+						<field name="key"/>
+						<field name="betas"/>
+					</group>
+				</form>
+			</field>
+		</record>
+	</data>
+</odoo>

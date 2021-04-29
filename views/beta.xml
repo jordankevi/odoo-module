@@ -1,0 +1,15 @@
+<odoo>
+	<data>
+		<record model="ir.ui.view" id="beta_list_view">
+			<field name="name">beta.tree</field>
+			<field name="model">test-module.beta</field>
+			<field name="arch" type="xml">
+				<tree string="Beta list">
+					<field name="name"/>
+					<field name="phone"/>
+					<field name="price"/>
+				</tree>
+			</field>
+		</record>
+	</data>
+</odoo>
